@@ -1,0 +1,52 @@
+#nav {
+    display: flex;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    border: 1px solid red;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+    margin-left: 0px;
+    justify-content: space-between;
+}
+
+#nav>div>img {
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 5px
+}
+
+#ico {
+    height: 200%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#nav>div {
+    height: 100%;
+    display: flex;
+}
+
+#cart {
+    height: 200%;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+#sign {
+    height: 50%;
+    margin-right: 30px;
+    margin-top: 15px;
+    background-color: crimson;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
